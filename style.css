@@ -199,3 +199,9 @@ main{
     padding: 1rem 3.5rem;
     margin-top: 1rem;
 }
+.footerLogo{
+    /* display: flex; */
+}
+.footerLogo img{
+    filter: brightness(300%) contrast(50%);
+}
