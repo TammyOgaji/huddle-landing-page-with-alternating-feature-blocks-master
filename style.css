@@ -167,7 +167,8 @@ main{
     background-color: var(--Very-Dark-Cyan);
     color: var(--footer-text);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     padding: 5rem 0;
     /* margin-top: 2rem; */
@@ -183,6 +184,7 @@ main{
     padding: 3rem;
     position: absolute;
     top: 171rem;
+    left: 25rem;
 }
 .actionCard h3{
     font-family: 'Poppins', sans-serif;
@@ -199,9 +201,33 @@ main{
     padding: 1rem 3.5rem;
     margin-top: 1rem;
 }
-.footerLogo{
-    /* display: flex; */
+.footerAdd{
+    max-width: 30rem;
+    /* margin: 1rem 0; */
 }
-.footerLogo img{
+.footerLinks ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footerLogo img{
     filter: brightness(300%) contrast(50%);
-}
+} */
