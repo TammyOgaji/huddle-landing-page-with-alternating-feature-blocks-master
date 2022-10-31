@@ -104,6 +104,11 @@ main{
     display: flex;
     align-items: center;
 }
+
+.contentDesc{
+    display: flex;
+    flex-direction: column;
+}
 .contentDesc h1{
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
@@ -116,14 +121,18 @@ main{
     margin-bottom: 2.5rem;
 
 }
-.contentBtn{
+
+.content_btn{
     font-size: 1rem;
+    background-color: var(--Pink);
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 1.5rem;
+    text-align: center;
     text-decoration: none;
     color: white;
-    background-color: var(--Pink);
-    border-radius: 2rem;
-    padding: 1rem 3.5rem;
 }
+
 .heroMockup img{
     max-width: 47rem;
     height: auto;
@@ -148,6 +157,7 @@ main{
 }
 .cardDesc{
     padding: 2rem;
+    text-align: start;
 }
 .cardDesc h2{
     font-family: 'Poppins', sans-serif;
@@ -157,6 +167,7 @@ main{
 .cardDesc p{
     color: var(--Grayish-Blue);
     line-height: 1.5;
+    text-align: start;
 }
 .cardImg img{
     max-width: 40rem;
