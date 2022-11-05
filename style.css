@@ -174,6 +174,9 @@ main{
     height: auto;
 }
 
+
+
+
 /* styling for the footerContainer */
 .actionCard{
     width: 30rem;
@@ -210,7 +213,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 5rem 2rem;
-    /* box-sizing: content-box; */
+    box-sizing: content-box;
     border: 1px solid red;
     /* margin-top: 2rem; */
 }
