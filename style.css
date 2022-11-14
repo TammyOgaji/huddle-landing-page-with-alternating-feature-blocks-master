@@ -147,6 +147,7 @@ main{
     align-content: center;
     justify-content: center;
     padding: 3rem;
+    margin-bottom: 15rem;
 }
 
 .articleCard{
@@ -169,6 +170,7 @@ main{
 .cardText h3{
     font-weight: 700;
     font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 .cardText p{
     color: var(--Grayish-Blue);
@@ -182,6 +184,46 @@ main{
 }
 
 
+
+
+/* styling the  last CTA */
+.actionCard{
+    position: absolute;
+    top: 170rem;
+    left: 25rem;
+    border: 1px solid var(--white);
+    box-shadow: var(--btn-box-shd);
+    border-radius: 0.8rem;
+    padding: 2.5rem 5rem;
+}
+
+.actionCard h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.cardBtn{
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--Pink);
+    box-shadow: var(--btn-box-shd);
+    border-radius: 2rem;
+    padding: 1.5rem 6rem;
+}
+
+
+
+/* styling the footer section */
 
 
 
