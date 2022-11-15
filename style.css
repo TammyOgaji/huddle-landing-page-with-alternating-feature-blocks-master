@@ -188,6 +188,7 @@ main{
 
 /* styling the  last CTA */
 .actionCard{
+    background-color: white;
     position: absolute;
     top: 170rem;
     left: 25rem;
@@ -202,7 +203,8 @@ main{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin: 1.5rem 0;
+    /* margin-bottom: 2rem; */
 }
 
 .btnContainer{
@@ -218,13 +220,17 @@ main{
     background-color: var(--Pink);
     box-shadow: var(--btn-box-shd);
     border-radius: 2rem;
-    padding: 1.5rem 6rem;
+    padding: 1.3rem 6rem;
 }
 
 
 
 /* styling the footer section */
 
+.footerContainer{
+    background-color: var(--Very-Dark-Cyan);
+    color: white;
+}
 
 
 
