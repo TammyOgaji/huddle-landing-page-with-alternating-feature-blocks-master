@@ -231,6 +231,40 @@ main{
     background-color: var(--Very-Dark-Cyan);
     color: white;
 }
+.footerContent{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerAdd{
+    max-width: 25rem;
+    box-sizing: border-box;
+}
+
+.footerLogo img{
+    filter: brightness(300%) contrast(50%);
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    margin-right: 1.3rem;
+}
+
+
+
+
+
+
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
