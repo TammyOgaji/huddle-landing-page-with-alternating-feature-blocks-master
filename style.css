@@ -134,7 +134,7 @@ main{
 }
 
 .hero-right img{
-    max-width: 47rem;
+    max-width: 45rem;
     height: auto;
 }
 
@@ -245,6 +245,7 @@ main{
 
 .footerLogo img{
     filter: brightness(300%) contrast(50%);
+    margin-bottom: 2rem;
 }
 
 .left_side{
@@ -259,13 +260,27 @@ main{
 
 
 
-
 .footerLinks{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.footerLinks ul li{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem 2.5rem;
+}
+
+.footerLinks ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.socialIcons p{
+    margin-top: 15rem;
+}
 
 
 
