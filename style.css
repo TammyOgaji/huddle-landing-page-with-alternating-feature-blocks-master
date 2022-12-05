@@ -230,6 +230,7 @@ main{
 .footerContainer{
     background-color: var(--Very-Dark-Cyan);
     color: white;
+    font-size: 1rem;
 }
 .footerContent{
     padding: 5rem;
@@ -254,6 +255,10 @@ main{
 }
 .icons{
     margin-right: 1.3rem;
+}
+
+.locationAdd{
+    margin-bottom: 1.5rem;
 }
 
 
